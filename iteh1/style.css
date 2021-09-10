@@ -1,0 +1,119 @@
+/* Bordered form */
+* {
+    font-family: Montserrat;
+}
+
+
+
+body {
+    background-image: url('img/1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+h1 {
+    color: orange;
+}
+
+form {
+    /* border: 3px solid #f1f1f1; */
+    background-color: rgba(46, 189, 41, 0.562);
+    display: block;
+    margin-top: 0em;
+    border: 5px solid orange;
+}
+
+form:hover {
+    /* border: 3px solid #f1f1f1; */
+    background-color: rgba(0, 0, 0, 0.362);
+    display: block;
+    margin-top: 0em;
+    border: 5px solid black;
+    color: black;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #ff4fd8;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+    border: orange;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 12px;
+    padding-top: 24px
+}
+
+/* Avatar image */
+img.avatar {
+    width: 50%;
+    height: 50%;
+    border-radius: 5%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+.main-div {
+    /*background: #ffffff none repeat scroll 0 0;*/
+    border-radius: 2px;
+    margin: 10px auto 30px;
+    max-width: 38%;
+    padding: 50px 70px 70px 71px
+}
+
+.login-form {
+    /*background-image: url(img/1.jpg);*/
+    background-position: center; 
+    text-align: center;
+}
+
+.login-form .btn.btn-primary {
+    background: black none repeat scroll 0 0;
+    border-color: orange;
+    color: orange;
+    font-size: 14px;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
+
+.login-form .btn.btn-primary:hover {
+    background: orange none repeat scroll 0 0;
+    border-color: black;
+    color: black;
+    font-size: 14px;
+    width: 60%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+}
